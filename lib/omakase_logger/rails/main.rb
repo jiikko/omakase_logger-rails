@@ -1,5 +1,6 @@
 module OmakaseLogger
   module Rails
+    return unless Rails.env.production?
     # unsubscribe ActionView::LogSubscriber
     ['render_template', 'render_partial', 'render_collection'].each do |event|
       ActiveSupport::Notifications.notifier.listeners_for("#{event}.action_view").each do |x|

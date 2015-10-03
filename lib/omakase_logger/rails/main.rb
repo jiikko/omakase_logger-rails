@@ -21,7 +21,8 @@ module Rails
           request.filtered_path,
           request.ip,
           Time.now.to_default_s,
-          request.env['HTTP_USER_AGENT'] ]
+          request.env['HTTP_USER_AGENT']
+        ]
       end
     end
   end

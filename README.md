@@ -10,6 +10,10 @@ Add this line to your application's Gemfile:
 gem 'omakase_logger-rails'
 ```
 
+## Features
+* Remove `render_template`, `*_fragment` log.
+* Write UserAgent and IP log.
+
 ## Usage
 ### config/environments/production.rb
 ```

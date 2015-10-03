@@ -13,8 +13,8 @@ end
 ```
 
 ## Features
-* Remove `render_template`, `*_fragment` log.
-* Write UserAgent and IP log.
+* Remove `render_template`, `*_fragment`.
+* Write UserAgent.
 
 ## Usage
 ### config/environments/production.rb

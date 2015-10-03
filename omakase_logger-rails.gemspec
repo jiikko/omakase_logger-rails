@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["n905i.1214@gmail.com"]
 
   spec.summary       = %q{OkamaseLogger::Rails to change rails log format.}
-  spec.description   = %q{OkamaseLogger::Rails to change rails log format.}
+  spec.description   = %q{OkamaseLogger::Rails to change rails log format. }
   spec.homepage      = "https://github.com/jiikko/omakase_logger-rails"
   spec.license       = "MIT"
 
@@ -21,5 +21,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec", '~> 3.0'
 end

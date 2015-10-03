@@ -7,7 +7,9 @@ OkamaseLogger::Rails to change rails log format.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omakase_logger-rails'
+group :production do
+  gem 'omakase_logger-rails'
+end
 ```
 
 ## Features
